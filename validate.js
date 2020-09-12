@@ -1247,7 +1247,7 @@
   };
 
   validate.exposeModule(validate, this, exports, module, define);
-}).call(this,
+}).call(typeof self !== "undefined" ? self : this,
         typeof exports !== 'undefined' ? /* istanbul ignore next */ exports : null,
         typeof module !== 'undefined' ? /* istanbul ignore next */ module : null,
         typeof define !== 'undefined' ? /* istanbul ignore next */ define : null);
